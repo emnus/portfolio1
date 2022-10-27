@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div>
         
-        <Button/>
+        <Header/>
 
     </div>
   )

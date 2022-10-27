@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Main from '../pages/Main/Main' 
 
 const RouterApp = () => {
   return (
@@ -7,7 +8,7 @@ const RouterApp = () => {
         <Routes>
             <Route
             path='/si'
-            element='' 
+            element={<Main/>} 
             />
         </Routes>
     </BrowserRouter>

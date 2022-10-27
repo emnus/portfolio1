@@ -1,21 +1,25 @@
 import React from 'react'
 import './Header.css'
+import Button from '../Button/Button'
+import useStyles from '../Button/useStyles'
 
 const Header = () => {
+  const Styles = useStyles();
   return (
-    <div>
+    <div className='header_body'>
       <div className='logo_container'>
       <img className='Logo_header' src="" alt="" />
       </div>
 
       <div className='buttons_header'>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <Button text="si"/>
+      <Button text="sí"/>
+      <Button text="si"/>
       <img src="" alt="" />
       </div>
     </div>
   )
 }
+
 
 export default Header

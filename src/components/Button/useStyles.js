@@ -1,6 +1,6 @@
 const useStyles = () => {
     return {
-        button_container: 'Button',
+        button_container: 'Button col-1',
         button_text : 'button_text',
     }
 };
