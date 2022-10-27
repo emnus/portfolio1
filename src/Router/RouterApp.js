@@ -6,7 +6,8 @@ const RouterApp = () => {
     <BrowserRouter>
         <Routes>
             <Route
-            path='/si' 
+            path='/si'
+            element='' 
             />
         </Routes>
     </BrowserRouter>
