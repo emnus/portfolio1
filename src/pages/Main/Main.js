@@ -2,7 +2,11 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div>
+
+        <h1> pone aca </h1>
+
+    </div>
   )
 }
 
