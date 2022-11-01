@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Button from '../Button/Button'
-import useStyles from '../Button/useStyles'
+import useStyles from './useStyles'
 
 const Header = () => {
   const Styles = useStyles();
@@ -12,9 +12,9 @@ const Header = () => {
       </div>
 
       <div className='buttons_header'>
-      <Button text="si"/>
-      <Button text="sí"/>
-      <Button text="si"/>
+      <Button className='col-1' text="si"/>
+      <Button className='col-1' text="sí"/>
+      <Button className='col-1' text="si"/>
       <img src="" alt="" />
       </div>
     </div>

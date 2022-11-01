@@ -2,19 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
     border-radius: 1px;
     height: 40px;
     border-radius: 25px;
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
-
     box-shadow:0px 0px 5px 0px;
     
 }
 .Button:hover{
     height: 40px;
     border-radius: 25px;
+    border-bottom: 9px;
 }
 .button_text{
     display: flex;
