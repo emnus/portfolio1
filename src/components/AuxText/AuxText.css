@@ -1,0 +1,17 @@
+.text{
+    color: white; 
+    overflow: scroll;
+    white-space: wrap;
+    
+}
+.text::-webkit-scrollbar{
+    height: 10px;
+    width: 5px;
+    background-color: rgba(116, 158, 255, 0.1) ;
+    border-radius: 10px;
+}
+.text::-webkit-scrollbar-thumb{
+    background-color: rgb(31, 38, 49);
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+} 
