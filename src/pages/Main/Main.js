@@ -9,12 +9,8 @@ const Main = () => {
     <div>
         
         <Header/>
-        <CustomCard />
-        <CustomCard />
-        <CustomCard />
-        <CustomCard />
-        <CustomCard />
-        <CustomCard />
+        <CustomCard text={'gola'} />
+       
 
     </div>
   )
