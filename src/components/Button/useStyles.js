@@ -1,6 +1,6 @@
-const useStyles = () => {
+const useStyles = ({Style = ''}) => {
     return {
-        button_container: 'Button col-1',
+        button_container: `Button  ${Style} `,
         button_text : 'button_text',
     }
 };
