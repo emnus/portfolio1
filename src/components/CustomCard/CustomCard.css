@@ -1,0 +1,49 @@
+
+.card_body{
+    height: 150px;
+    width: 350px;
+    box-shadow: 0px 2px 4px 0px black;
+
+}
+.card_body:hover{
+    box-shadow: 0px 1px 1px 0px white;
+}
+.img_box{
+    border-radius: 7px;
+    height: 100%;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healthier.qld.gov.au%2Ffood%2Frecipes%2Fspaghetti-bolognese%2F&psig=AOvVaw2LYbiWkdSnDZsQ8amK9P2I&ust=1667356789457000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIDHzqD6i_sCFQAAAAAdAAAAABAE');
+    display: flex;
+    overflow: hidden;
+
+}
+
+.card_title__container{
+    height: 30px;
+}
+
+.text_box{
+    height: 100%;
+    overflow: scroll;
+}
+
+.card_text{
+    color: white;
+    font-size: large;
+}
+
+.card_description{
+ height: 100%;
+}
+
+.text_box::-webkit-scrollbar{
+    height: 100%;
+    width: 5px;
+    background-color: rgba(116, 158, 255, 0.1) ;
+    border-radius: 10px;
+    
+}
+.text_box::-webkit-scrollbar-thumb{
+    background-color: rgb(31, 38, 49);
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+} 
